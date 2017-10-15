@@ -221,9 +221,9 @@ pre {
   text-align: center;
   background: #fff;
   line-height: 0;
-  height: 210px;
+  height: 200px;
   width: 100%;
-  background: #464853 url(https://raw.githubusercontent.com/wumode/wumode.github.io/master/img/home.jpg);
+  background: #464853 url(http://api.dujin.org/bing/1920.php);
 }
 .main-header .homeiframe {
   width: 100%;
