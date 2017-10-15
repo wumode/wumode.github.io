@@ -225,7 +225,7 @@ pre {
   width: 100%;
   background: #464853 url(https://raw.githubusercontent.com/wumode/wumode.github.io/master/img/wozvqzpscrk_fu.jpg);
 }
-.main-header .wozvqzpscrk_fuiframe {
+.main-header .banneriframe {
   width: 100%;
   height: 100%;
   border-width: 0px;
