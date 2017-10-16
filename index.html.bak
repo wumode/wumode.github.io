@@ -21,7 +21,7 @@
     <!--Title-->
 
 
-<title>Hello World | WuMo</title>
+<title>WuMo</title>
 
 
     <link rel="alternate" href="/atom.xml" title="WuMo" type="application/atom+xml">
@@ -33,8 +33,6 @@
 
 
 
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css?rev=9.12.0">
 
 
 <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css?rev=3.3.4">
@@ -69,10 +67,10 @@
     <header class="main-header">
     <div class="main-header-box">
         <a class="branding" href="/" title="">
-            <img src="/img/header_logo.gif" alt="Snippet 博客主题">
+            <img src="/img/header_logo.png" alt="Snippet 博客主题">
         </a>
         <h2 class="text-hide">Snippet主题</h2>
-        <img src="/img/header_logo.gif" alt="Snippet 博客主题" class="hide">
+        <img src="/img/header_logo.png" alt="Snippet 博客主题" class="hide">
     </div>
 </header>
     <nav class="main-navigation">
@@ -106,16 +104,33 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content m-post">
-                    <p id="process"></p>
+                <main class="col-md-8 main-content ">
+                    <div class="carousel">
+    <img src="/img/head-img.jpg">
+</div>
+
+
+
 <article class="post">
-    <div class="post-head">
-        <h1 id="Hello World">
-            
-            Hello World
-            
-        </h1>
-        <div class="post-meta">
+    
+    <div class="post-content">
+        <div class="post-head home-post-head">
+            <h1 class="post-title">
+                <a href="/2017/10/14/hello-world/">Hello World</a>
+            </h1>
+            <div class="post-meta">  &bull;
+                <time class="post-date" datetime="" title="">
+                    2017年10月14日
+                </time>
+            </div>
+        </div>
+        <p class="brief">
+            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using ...
+        </p> 
+    </div>
+    <footer class="post-footer clearfix">
+        <div class="pull-left tag-list">
+            <div class="post-meta">
     
     
     <span class="categories-meta fa-wrap">
@@ -140,60 +155,14 @@
     </span>
 </div>
 
-            
-            
-    </div>
-    
-    <div class="post-body">
-        <p>Welcome to <a href="http://www.wumode.xyz/" target="_blank" rel="external">My Site</a>! This is my very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-    </div>
-
-    <div class="post-footer">   
-        <div>
-            
-                转载声明: 商业转载请联系作者获得授权,非商业转载请注明出处 © 存在
-            
         </div>
-        <div>
-            
-                版权声明: <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">
-知识共享署名-非商业性使用-禁止演绎 3.0 未本地化版本许可协议（CC BY-NC-ND 3.0）
-</a>
-            
-        </div>  
-    </div>
+
+        <div class="post-permalink"> 
+            <a href="/2017/10/14/hello-world/" class="btn btn-default">阅读全文</a>
+        </div>
+    </footer>
 </article>
 
-<div class="article-nav prev-next-wrap clearfix">
-    
-        <a href="/2017/10/15/我的小站完工啦！/" class="pre-post btn btn-default"><i class="fa fa-angle-left fa-fw"></i>上一篇</a>
-    
-    
-</div>
-
-
-    <div id="comments">
-        
-    <div id="uyan_frame"></div>
-    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1966422"></script>
-
-
-
-
-
-
-
-
-    </div>
 
 
 
@@ -255,7 +224,7 @@
         
     <div class="widget">
       <h3 class="title">归档</h3>
-        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/"><i class="fa" aria-hidden="true">十月 2017</i></a><span class="archive-list-count">2</span></li></ul>
+        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/"><i class="fa" aria-hidden="true">October 2017</i></a><span class="archive-list-count">1</span></li></ul>
     </div>
 
 
@@ -308,11 +277,6 @@
         </div>
     </div>
 </div>
-
-  <script src="/assets/highlight.pack.js?rev=@@hash"></script>
-  <script>
-    hljs.initHighlightingOnLoad(); //初始化代码高亮 
-  </script>
 
 <script src="/js/app.js?rev=@@hash"></script>
 
